@@ -1,0 +1,42 @@
+# Compiled files
+*.exe
+
+# =========================
+# Programs
+# =========================
+
+# CodeBlocks files
+*.layout
+*.depend
+*.o
+
+# CodeBlocks folders
+bin/
+obj/
+
+# Visual Studio Code hidden folder
+#.vscode/
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
