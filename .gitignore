@@ -1,21 +1,27 @@
-# Compiled files
-*.exe
-
 # =========================
 # Programs
 # =========================
 
-# CodeBlocks files
+# CodeBlocks
+# =========================
+
+# Files
 *.layout
 *.depend
 *.o
 
-# CodeBlocks folders
+# Folders
 bin/
 obj/
 
-# Visual Studio Code hidden folder
+# Visual Studio Code 
+# =========================
+
+# Hidden folders
 #.vscode/
+
+# Compiled files
+program
 
 # =========================
 # Operating System Files
@@ -30,6 +36,9 @@ obj/
 
 # Windows
 # =========================
+
+# Compiled files
+*.exe
 
 # Windows image file caches
 Thumbs.db

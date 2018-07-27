@@ -4,13 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "ANSI C Debug Compiler",
+            "label": "ANSI C Program Compiler",
             "command": "cc",
             "type": "shell",
             "args": [
                 "-o",
-                "program",
-                "main.c"
+                "program", // Program output
+                "library.c", // Library files
+                "main.c" // Main file
             ],
             "problemMatcher": [
                 "$gcc"
