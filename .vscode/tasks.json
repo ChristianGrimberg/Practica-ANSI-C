@@ -4,18 +4,30 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "ANSI C Program Compiler",
+            "label": "ANSI C GNU Linux Compiler",
             "command": "cc",
             "type": "shell",
             "args": [
                 "-o",
-                "program", // Program output
-                "library.c", // Library files
-                "main.c" // Main file
+                "program",
+                "library.c",
+                "main.c"
             ],
             "problemMatcher": [
                 "$gcc"
             ]
+        },
+        {
+            "label": "ANSI C Windows Compiler",
+            "command": "C:/Program Files (x86)/CodeBlocks/MinGW/bin/mingw32-gcc.exe",
+            "type": "shell",
+            "args": [
+                "-o",
+                "program",
+                "library.c",
+                "main.c"
+            ],
+            "problemMatcher": []
         }
     ]
 }
